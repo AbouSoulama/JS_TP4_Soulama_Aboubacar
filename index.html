@@ -61,22 +61,22 @@
                        
                    </div><br>
                    
-                   <form action="traitement.php" method="POST">
+                   <form id="inscription">
                       <div class="display">
                         <input class="a" type="text" name="First Name" placeholder="First Name" id="nom">
                         <input class="a"  type="text" name="Last Name" placeholder="Last Name" id="prenom">
                       </div><br>
                       <div class="display">
                         <input class="a"  type="text" name="email" placeholder="Your Email" id="email">
-                        <input class="a"  type="text" name="number" placeholder="Phone Number">
+                        <input class="a"  type="text" name="number" placeholder="Phone Number" id="number">
                       </div><br>
                       <div class="display z">
                         <input class="a"  type="text" name="Age" placeholder="Age" id="age">
                         <div class="label">
-                            <input type="radio" name="type" value="male">
+                            <input type="radio" name="type" >
                             <label>Male
                             </label>
-                            <input type="radio" name="type" value="female">
+                            <input type="radio" name="type" >
                             <label>Female
                             </label>
                         </div>
@@ -91,14 +91,22 @@
                       </div>
                        
                        <div class=" gg">
-                        <button class="g" type="submit" class="boutton">Enregistré <i class="fa-solid fa-arrow-right"></i></button>
+                        <input class="g" type="submit" value="Inscription" id="bouton_envoi" >
                        </div>
                        
            
                     </form>
+                    
                      
                </div>
            </section>
+           
+           <p style="color: red;" id="erreur"></p>
+           
+           
+           <script src="script.js"></script>
+           </body>
+           </html>
            
            
  
