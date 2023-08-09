@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     
+
+        <section>
+ 
+
+            <!-- block principale -->
+           
+           <div class="princi">
+           
+           
+               <div class="im">
+                   <img class="img" src="1.jpg" alt="">
+               </div>
+           
+           
+           
+           <!-- block gauche -->
+           
+           <div>
+           
+               <div class="container">
+           
+                   <div class="text">
+           
+                       <header class="regis">REGISTRATION</header><br>
+                       
+                       <div class="progress-bar p1">
+                            <div class="step un">
+                            <div class="bullet">
+                            <span></span>
+                            <div class="check"></div>
+                            </div>
+                            </div>
+                           
+                            <div class="step deu">
+                                <div class="bullet">
+                                    <span></span> 
+                                    <div class="check"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="step troi">
+                                <div class="bullet">
+                                    <span></span>
+                                    <div class="check"></div>
+                                </div>
+                            </div>
+                       </div>
+                       
+                       <p class="vert p1">Please fill with your details</p>
+                       
+                   </div><br>
+                   
+                   <form action="traitement.php" method="POST">
+                      <div class="display">
+                        <input class="a" type="text" name="First Name" placeholder="First Name" id="nom">
+                        <input class="a"  type="text" name="Last Name" placeholder="Last Name" id="prenom">
+                      </div><br>
+                      <div class="display">
+                        <input class="a"  type="text" name="email" placeholder="Your Email" id="email">
+                        <input class="a"  type="text" name="number" placeholder="Phone Number">
+                      </div><br>
+                      <div class="display z">
+                        <input class="a"  type="text" name="Age" placeholder="Age" id="age">
+                        <div class="label">
+                            <input type="radio" name="type" value="male">
+                            <label>Male
+                            </label>
+                            <input type="radio" name="type" value="female">
+                            <label>Female
+                            </label>
+                        </div>
+                      </div> <br>
+                      <div class="coun">
+                        <select class="a"  type="text" name="Country" aria-placeholder="Your country">
+                            <option value="United States">Your country</option> 
+                            <option value="United States">United States</option> 
+                            <option value="United kingdom">United kingdom</option> 
+                            <option value="viet Nam">viet Nam</option> 
+                        </select>
+                      </div>
+                       
+                       <div class=" gg">
+                        <button class="g" type="submit" class="boutton">Enregistré <i class="fa-solid fa-arrow-right"></i></button>
+                       </div>
+                       
+           
+                    </form>
+                     
+               </div>
+           </section>
+           
+           
+ 
