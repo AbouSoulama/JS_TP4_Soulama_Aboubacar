@@ -170,7 +170,7 @@ select{
 .g{
     font-size: 20px;
     background: rgb(245, 215, 158);
-    margin-top: 33px;
+    /* margin-top: px; */
     margin-right: 120px;
     width: 130px;
     height: 37px;
