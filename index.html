@@ -63,17 +63,22 @@
                    
                    <form id="inscription">
                       <div class="display">
-                        <input class="a" type="text" name="First Name" placeholder="First Name" id="nom"><br>
-                        <span id="nom_manquant"></span>
-                        <input class="a"  type="text" name="Last Name" placeholder="Last Name" id="prenom"><br>
-                        <span id="nom_manquant"></span>
+                       <div> <input class="a" type="name" name="First Name" placeholder="First Name" id="nom">
+                        <span style="color: red;" id="erreur" ></span></div>
+                        <div><input class="a"  type="name" name="Last Name" placeholder="Last Name" id="prenom">
+                        <span  style="color: red;" id="erreur2"></span></div>
                       </div><br>
                       <div class="display">
-                        <input class="a"  type="text" name="email" placeholder="Your Email" id="email">
-                        <input class="a"  type="text" name="number" placeholder="Phone Number" id="number">
+                        <div><input type="email" class="a"  placeholder="Your Email" id="email">
+                            <span style="color: red;" id="erreur3" ></span>
+                        </div>
+                        <div><input class="a"  type="coded" name="number" placeholder="Phone Number" id="number">
+                            <span  style="color: red;" id="erreur4">
+                        </div>
                       </div><br>
                       <div class="display z">
-                        <input class="a"  type="text" name="Age" placeholder="Age" id="age">
+                       <div> <input class="a"  type="text" name="Age" placeholder="Age" id="age"><br>
+                        <span  style="color: red;" id="erreur5"></span></div>
                         <div class="label">
                             <input type="radio" name="type" >
                             <label>Male
@@ -84,7 +89,7 @@
                         </div>
                       </div> <br>
                       <div class="coun">
-                        <select class="a"  type="text" name="Country" aria-placeholder="Your country">
+                        <select class="a"  type="text" name="Country" aria-placeholder="Your country" id="country">
                             <option value="United States">Your country</option> 
                             <option value="United States">United States</option> 
                             <option value="United kingdom">United kingdom</option> 
@@ -93,10 +98,10 @@
                       </div>
                        
                        <div class=" gg">
-                        <button class="g" type="submit" value="Inscription">Enregistré <i class="fa-solid fa-check"></i> </i></button>
+                        <button class="g" id="valid" type="submit" value="Inscription">Enregistré <i class="fa-solid fa-check"></i> </i></button>
                        </div>
                        
-                         <p style="color: red;" id="erreur"></p>
+                         <!-- <p style="color: red;" id="erreur"></p> -->
                     </form>
                     
                      
